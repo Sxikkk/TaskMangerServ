@@ -22,6 +22,7 @@ public class AuthController: ControllerBase
         try
         {
             var response = await _authService.LoginUserAsync(dto);
+            Console.WriteLine(response);
             return Ok(response);
         }
         catch (UserNotFoundException e)

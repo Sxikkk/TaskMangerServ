@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text;
 using Application;
 using Application.Interfaces;
@@ -58,6 +59,13 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.WebHost.ConfigureKestrel((context, options) =>
+{
+    var kestrelConfig = context.Configuration.GetSection("Kestrel:EndPoints:Http:Url").Value!;
+    var uri = new Uri(kestrelConfig);
+    options.ListenAnyIP(uri.Port); 
+});
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -107,7 +115,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowFrontend");
+app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

@@ -56,7 +56,7 @@ public class JwtService: IJwtService
         var claims = new List<Claim>
         {
             new Claim("userId", user.Id.ToString()),
-            new Claim(ClaimTypes.Email, user.Email),
+            new Claim("email", user.Email),
         };
 
         var accessToken = new JwtSecurityToken(

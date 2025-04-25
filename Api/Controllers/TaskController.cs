@@ -34,7 +34,11 @@ public class TaskController : ControllerBase
         }
         catch (Exception e)
         {
-            return StatusCode(500, e.Message);
+            return StatusCode(500, new { 
+                Message = "Error creating task",
+                Detailed = e.Message,
+                StackTrace = e.StackTrace
+            });
         }
     }
 

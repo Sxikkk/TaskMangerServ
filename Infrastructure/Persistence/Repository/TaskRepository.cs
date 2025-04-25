@@ -59,8 +59,9 @@ public class TaskRepository : ITaskRepository
             if (!await _userRepository.ExistUserByIdAsync(userId))
                 throw new UserNotFoundException("Пользователь не найден", userId);
             
-            var user = await _userRepository.GetUserByIdAsync(userId);
-            user.Tasks.Add(task);
+            task.UserId = userId;
+
+            await _context.Tasks.AddAsync(task);
             await _context.SaveChangesAsync();
             return task;
         }

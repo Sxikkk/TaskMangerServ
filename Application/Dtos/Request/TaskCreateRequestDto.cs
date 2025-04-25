@@ -12,7 +12,7 @@ public record TaskCreateRequestDto
     public string Title { get; init; }
     
     [MaxLength(1000, ErrorMessage = "Description cannot exceed 1000 characters")]
-    public string Description { get; init; }
+    public string? Description { get; init; }
     
     [Required]
     public Status Status { get; init; } = Status.Pending;
