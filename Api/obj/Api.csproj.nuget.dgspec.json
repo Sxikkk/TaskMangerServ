@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Api\\Api.csproj": {}
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Api\\Api.csproj": {}
   },
   "projects": {
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Api\\Api.csproj": {
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Api\\Api.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Api\\Api.csproj",
+        "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\wallk\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Api\\obj\\",
+        "outputPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wallk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj": {
-                "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj"
+              "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj": {
+                "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj"
               },
-              "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj"
+              "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
             "BCrypt": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -129,14 +133,14 @@
         }
       }
     },
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj": {
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj",
+        "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\wallk\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\obj\\",
+        "outputPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wallk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -151,8 +155,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj"
+              "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj"
               }
             }
           }
@@ -251,14 +255,14 @@
         }
       }
     },
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj": {
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+        "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\wallk\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\obj\\",
+        "outputPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wallk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -369,14 +373,14 @@
         }
       }
     },
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\wallk\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\obj\\",
+        "outputPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wallk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -391,11 +395,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj": {
-                "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj"
+              "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj": {
+                "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj"
               },
-              "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj"
+              "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj"
               }
             }
           }

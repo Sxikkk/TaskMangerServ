@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "DaHBxfK4P3gXJ6uKDSVnnhIXWhFoDoaVEJnJIgdaKNM=",
+  "Hash": "HucMu/e//1rNxHXDR1+4Ch2um5I1LAalD/NcvAnN/9A=",
   "Source": "Infrastructure",
   "BasePath": "_content/Infrastructure",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj",
       "Version": 2,
       "Source": "Application",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
       "Version": 2,
       "Source": "Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

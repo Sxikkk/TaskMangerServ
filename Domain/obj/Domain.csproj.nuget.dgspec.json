@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj": {}
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj": {
+    "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+        "projectPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\wallk\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\obj\\",
+        "outputPath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wallk\\AppData\\Roaming\\NuGet\\NuGet.Config"

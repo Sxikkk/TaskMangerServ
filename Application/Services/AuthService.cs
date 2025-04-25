@@ -60,6 +60,15 @@ public class AuthService: IAuthService
 
         if (!BCryptHelper.CheckPassword(dto.Password, user.PasswordHash))
             throw new Exception("Password incorrect");
+
+        if (user.Token == null)
+        {
+            var token = await _tokenRepository.AddTokenAsync(new RefreshToken
+            {
+                UserId = user.Id,
+                Token = _jwtService.GenerateRefreshToken(user),
+            });
+        }
         
         var newRefreshToken =
             await _tokenRepository.UpdateTokenAsync(user.Token.Id, _jwtService.GenerateRefreshToken(user));

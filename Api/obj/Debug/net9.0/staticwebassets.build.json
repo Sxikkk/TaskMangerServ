@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "V1F8kd+OlTEw3fqos4kbosdyMrZRBbM9mZ5UKg9sVnA=",
+  "Hash": "in1FYo+0KmU3woGTpHAlQkfcQd0TJiOfhonNINJImYc=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Application\\Application.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Application\\Application.csproj",
       "Version": 2,
       "Source": "Application",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
       "Version": 2,
       "Source": "Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -29,7 +29,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Infrastructure\\Infrastructure.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Infrastructure\\Infrastructure.csproj",
       "Version": 2,
       "Source": "Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

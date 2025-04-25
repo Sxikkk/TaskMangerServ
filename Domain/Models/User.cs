@@ -11,21 +11,21 @@ public class User
     [Required]
     [EmailAddress(ErrorMessage = "invalid Email")]
     [MaxLength(254)]
-    public string Email { get; init; }
+    public string Email { get; set; }
     
     [Required]
     [MaxLength(256)]
-    public string PasswordHash { get; init; }
+    public string PasswordHash { get; set; }
     
     [Required]
-    public int RoleId { get; init; }
+    public int RoleId { get; set; }
     
     [Required]
     [MaxLength(50)]
-    public string FirstName { get; init; }
+    public string FirstName { get; set; }
     
     [MaxLength(50)]
-    public string? SecondName { get; init; }
+    public string? SecondName { get; set; }
     
     public DateTime CreatedAt { get; init; } = DateTime.UtcNow;
 

@@ -11,4 +11,5 @@ public interface IUserRepository
     Task<User> DeleteUserAsync(Guid userId);
     Task<bool> ExistUserByIdAsync(Guid userId);
     Task<bool> ExistUserByEmailAsync(string email);
+    Task<User> UpdateUserAsync(User user);
 }

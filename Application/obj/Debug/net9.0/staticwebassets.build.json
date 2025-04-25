@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "Pz6018Ve/0kiCZ5pX99+/spy8btEMQVEell6sgJQFUY=",
+  "Hash": "sNAQd+NNWUQazM9hUKlSdvOigxi4/e39kQ7i4bEdxjU=",
   "Source": "Application",
   "BasePath": "_content/Application",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+      "Identity": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
       "Version": 2,
       "Source": "Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

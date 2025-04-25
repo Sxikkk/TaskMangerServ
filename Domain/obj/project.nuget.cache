@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IY1AA6AGX5w=",
+  "dgSpecHash": "LxMiOVsTv/Y=",
   "success": true,
-  "projectFilePath": "E:\\PROJECTS\\FULLSTACK\\TEST\\serv\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\PROJECTS\\asdf\\TaskMangerServ\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wallk\\.nuget\\packages\\bcrypt\\1.0.0\\bcrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\wallk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

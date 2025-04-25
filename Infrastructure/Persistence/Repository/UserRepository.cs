@@ -100,4 +100,22 @@ public class UserRepository: IUserRepository
         return await _context.Users
             .AnyAsync(u => u.Email.Trim().ToLower() == normalizedEmail);
     }
+
+    public async Task<User> UpdateUserAsync(User user)
+    {
+        try
+        {
+            if (!await ExistUserByIdAsync(user.Id))
+                throw new UserNotFoundException("User not found", user.Id);
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+            return user;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
 }
