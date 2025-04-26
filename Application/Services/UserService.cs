@@ -97,7 +97,7 @@ public class UserService : IUserService
         var user = await _userRepository.GetUserByIdAsync(userId);
 
         if (!BCryptHelper.CheckPassword(currentPassword, user.PasswordHash))
-            throw new Exception("Current password is incorrect");
+            throw new UnauthorizedAccessException("Current password is incorrect");
 
         user.PasswordHash = BCryptHelper.HashPassword(newPassword, BCryptHelper.GenerateSalt());
         await _userRepository.UpdateUserAsync(user);

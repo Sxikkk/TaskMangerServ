@@ -149,14 +149,18 @@ public class UserController : ControllerBase
         try
         {
             var response = await _userService.UpdateUserPasswordAsync(
-                userId, 
-                dto.CurrentPassword, 
+                userId,
+                dto.CurrentPassword,
                 dto.NewPassword);
             return Ok(response);
         }
         catch (UserNotFoundException e)
         {
             return NotFound(e.Message);
+        }
+        catch (UnauthorizedAccessException e)
+        {
+            return StatusCode(401, e.Message);
         }
         catch (Exception e)
         {
